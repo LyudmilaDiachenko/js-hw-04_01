@@ -1,4 +1,3 @@
-// Завдання
 // ■ Завдання, в якому необхідно використати IF.
 // 1. Запросіть у користувача число та визначіть чи воно додатне, від’ємне або нуль.
 // const number = Number(prompt("Введіть число додатнє, або від'ємне, або 0"))
@@ -31,6 +30,7 @@
 // if(x > 0 && y < 0){
 //     alert('IV чверть')
 // }
+
 // ■ Завдання, в якому необхідно використати SWITCH.
 // 1. Запросіть у користувача номер місяця та виведіть на екран ого назву.
 // const mounth = prompt("Введіть номер місяця")
@@ -74,36 +74,43 @@
 //     default:
 //     alert('Введіть коректні дані')
 // }
+
 // 2. Реалізуйте калькулятор. Користувач вводить 2 числа та знак (+ - */). Залежно від
 // введеного знака розв’яжіть приклад та виведіть результат.
-// const firstNum =  Number(prompt("Введіть перше число"))
+// const firstNum = Number(prompt("Введіть перше число"))
 // const secondNum = Number(prompt("Введіть друге число"))
 // const sign = prompt("Введіть знак: + - */")
 // if(sign === '+'){
-//     addition = firstNum + secondNum
+//     let addition = firstNum + secondNum
 //     alert(`${firstNum} + ${secondNum} = ${addition}`)
 // }
 // if(sign === '-'){
-//     subtraction = firstNum - secondNum
+//     let subtraction = firstNum - secondNum
 //     alert(`${firstNum} - ${secondNum} = ${subtraction}`)
 // }
 // if(sign === '*'){
-//     multiplication = firstNum * secondNum
+//     let multiplication = firstNum * secondNum
 //     alert(`${firstNum} * ${secondNum} = ${ multiplication}`)
 // }
 // if(sign === '/'){
-//     division = firstNum / secondNum
+//     let division = firstNum / secondNum
 //     alert(`${firstNum} / ${secondNum} = ${division}`)
 // }
 
-// 1
-// Практичне завдання 2
 // ■ Завдання, в якому необхідно використати тернарни оператор.
 // 1. Запросіть 2 числа і виведіть більше з них.
+// const firstNumber = Number(prompt("Введіть перше число"))
+// const secondNum = Number(prompt("Введіть друге число"))
+// alert(firstNumber > secondNum ? firstNumber : secondNum)
+
 // 2. Запросіть 1 число та перевірте ого на кратність 5.
-// 3. Запросіть у користувача назву планети. Якщо користувач ввів «Земля» або «земля», то
-// виведіть «Привіт, землянине!». В інших випадках виведіть «Привіт, інопланетянине!».
-// Практичне завдання 2
+const num = Number(prompt("Введіть число  для перевірки його на кратність 5"))
+alert(num % 5 ? "Некратне 5" : 'Кратне 5')
+
+// 3. Запросіть у користувача назву планети. Якщо користувач ввів «Земля»
+// або «земля», то виведіть «Привіт, землянине!». 
+// В інших випадках виведіть «Привіт, інопланетянине!».
+
 // ■ Завдання, в якому необхідно використати тернарни оператор.
 // 1. Запросіть 2 числа і виведіть більше з них.
 // 2. Запросіть 1 число та перевірте ого на кратність 5.
